@@ -1,0 +1,193 @@
+.heading{
+    border: 3px violet dashed ;
+    border-radius: 35px;
+    padding: 3px;
+    text-align: center;
+    margin: 30px auto;
+    width: 50%;
+    background-color: white;
+
+}
+
+
+h1{
+    color: navy;
+    font-size: 50px;
+}
+p{
+    color: darkviolet;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.details{
+    width: 40%;
+    height: 250px;
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid blue;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.details h2 {
+    color:white;
+    text-align: center;
+    background-color: navy;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.details p {
+    color: black;
+    font-size: 20px;
+    margin: 15px;
+    font-style: normal;
+}
+
+.date {
+    color: blue;
+    font-weight: bold;
+}
+
+.time {
+    color: green;
+    font-weight: bold;
+}
+
+.venue {
+    color: red;
+    font-weight: bold;
+}
+
+
+.highlights {
+    width: 550px;
+    height: 350px;
+
+    margin: 30px;
+    padding: 20px;
+
+    border-style: dashed;
+    border-width: 5px;
+    border-color: green;
+
+    border-radius: 25px;
+
+    background-color: #fff9d9;
+
+    box-sizing: border-box;
+}
+
+
+
+.highlights h2 {
+    color: white;
+    background-color: green;
+
+    text-align: center;
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+}
+
+
+
+.highlights p {
+    color: rgb(0, 0, 0);
+
+    font-size: 18px;
+
+    margin: 15px;
+}
+
+
+.highlights h1 {
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.event-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.details {
+    width: 45%;
+    height: 350px;
+    margin: 0;
+    padding: 10px;
+    border: 5px solid blue;
+    border-radius: 25px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.highlights {
+    width: 45%;
+    height: 350px;
+    margin: 0;
+    padding: 10px;
+    border: 5px dashed green;
+    border-radius: 25px;
+    background-color: #fff9d9;
+    box-sizing: border-box;
+}
+
+
+
+/* Footer Section */
+
+.footer {
+    width: 90%;
+    margin: 30px auto;
+    padding: 3px;
+    border: 4px dashed white;
+    border-radius: 25px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+/* Footer Heading */
+
+.footer h2 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* Footer Paragraph */
+
+.footer p {
+    color: yellow;
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+
+body {
+    font-family: Arial;
+
+    background-color: lightblue;
+
+    background-image: url("college.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+}
